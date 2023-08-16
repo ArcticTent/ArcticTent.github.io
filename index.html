@@ -49,7 +49,7 @@
             color: rgb(255, 255, 255);
         }
 
-    header .logo a {
+    .logo a {
         display: inline-block;
         background-image: url("arcticImages/logo.png");
         background-repeat: no-repeat;
@@ -73,10 +73,6 @@
 
     .info {
         margin: 0px 0px 0px 15px;
-    }
-
-    main {
-        min-height: calc(100vh - 68px - 30px);
     }
 
     footer {
@@ -139,46 +135,46 @@
 
 
 
-    @media screen and (max-width: 440px) {
+    @media screen and (max-width: 470px) {
        
-        .navigationArctic {
-            margin-left: 50px;
-        }
 
         .normalNav 
         {
             display:inline-block;
-            margin: 25px 20px -10px 0px;
+            margin: 25px 20px -10px 30px;
+        }
+        .normalNav a {
+
             font-size: medium;
         }
         
-        .logo {
-            width: 30px;
-            height: 20px;
-            margin-left:-50px;
-            margin-right: 50px;
+        .logo a{
+            width: 60px;
+            height: 50px;
+            margin-left:10px;
+            margin-top: 7px;
         }
         
     }
 
-    @media screen and (max-width: 340px) {
+    @media screen and (max-width: 415px) {
         .navigationArctic {
             margin-left: 30px;
         }
 
-       .normalNav 
+       .normalNav a
        {
            font-size: medium;
        }
        
-       .logo {
+       .logo a{
             display: none;
         }
        
    }
 
-   @media screen and (max-width: 288px) {
-        .normalNav 
+   @media screen and (max-width: 348px) {
+        .normalNav a
        {
            font-size: small;
        }
