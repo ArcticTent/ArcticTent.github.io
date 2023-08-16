@@ -25,7 +25,7 @@
     }
 
     
-    ul {
+    ul.navigationArctic {
             margin: 0;
             padding: 0;
             list-style-type: none;
@@ -38,7 +38,7 @@
         color: rgb(222, 222, 222);
     }
 
-    li{
+    .navigationArctic li{
         display: inline-block;
         margin: 25px 20px -10px 0px;
         font-weight: bolder;
@@ -94,6 +94,49 @@
     .smallNav {
         display: none;
     }
+
+    .info-item {
+        outline: 4px solid rgb(0, 0, 0);
+        margin: 20px 4vw 30px 0;
+        width:80vw;
+        border-radius: 5%;
+        max-width: 600px;
+        overflow: hidden;
+        aspect-ratio: 30/10;
+        box-shadow: 3px 5px 15px 3px rgb(29, 29, 29);
+    }
+    
+    .info-picture {
+        aspect-ratio: 30 / 6;
+        overflow: hidden;
+        box-shadow: 0 1px 2px 2px #000000;
+    }
+
+    .info-picture img {
+        width:100%;
+        overflow: hidden;
+    }
+
+    .info-content {
+        margin: auto;
+        padding:15px;
+        background-color: rgb(213, 213, 213);
+    }
+
+    .info-header a{
+        text-decoration: underline;
+        color:rgb(34, 34, 34);
+        padding: 1% 4%;
+    }
+
+    .info-header a:hover{
+        color:rgb(85, 85, 85);
+    }
+
+    ul.news-el{
+        list-style-type: none;
+    }
+
 
 
     @media screen and (max-width: 440px) {
@@ -164,7 +207,20 @@
         <h4>    
             News:
         </h4>
-        <div class="info-item">a</div>
+        <ul class="news-el"> 
+            <li><div class="info-item">
+                <div class="info-picture"> <img src="arcticImages/HeaderKapselScaled.png" alt=""> </div>
+                <h4 class="info-header"><a href="index.html">A cool new feature:</a></h3>
+                <div class="info-content"> Test</div>
+            </li>
+            <li><div class="info-item">
+                <div class="info-picture"> <img src="arcticImages/HeaderKapselScaled.png" alt=""> </div>
+                <h4 class="info-header"><a href="index.html">A cool new feature:</a></h3>
+                <div class="info-content"> Test</div>
+            </li>
+        </ul>
+        
+        </div>
         <div>b</div>
         <div>c</div>
     </section>
