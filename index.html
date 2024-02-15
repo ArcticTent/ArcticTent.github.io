@@ -5,235 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arctic Tent Studios</title>
     <link rel="icon" type="image/x-icon" href="arcticImages/logo.png">
-    <style> 
-    body{
-        background: rgb(227, 227, 227);
-        color: rgb(46, 46, 46);
-        font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
-        margin: 0;
-        padding: 0;
-    }
-
-    header{
-        background: rgb(34, 34, 34);
-        padding: 0;
-        margin: 0;
-        width: 100%;
-        height: 68px;
-        position: fixed;
-        z-index: 10;
-        top: 0;
-        outline: 3px solid rgb(77, 77, 77);
-    }
-
-    a{
-        text-decoration: none;
-    }
-
     
-    ul.navigationArctic {
-            margin: 0;
-            padding: 0;
-            list-style-type: none;
-            display: flex;
-            text-align: center;
-        }
-
-    header .navigationArctic a {
-        text-decoration:none;
-        color: rgb(222, 222, 222);
-    }
-
-    .navigationArctic li{
-        display: inline-block;
-        margin: 25px 20px -10px 0px;
-        font-weight: bolder;
-        font-size: large;
-    }
-
-    li.normalNav a:hover {
-            color: rgb(255, 255, 255);
-        }
-
-    .logo a {
-        display: inline-block;
-        background-image: url("arcticImages/logo.png");
-        background-repeat: no-repeat;
-        background-size: 100%;
-        width: 75px;
-        height: 50px;
-        transform: translate(0,-50%);
-        text-indent: -9999px;
-    }
-
-    nav {
-        margin: 0;
-        padding: 0px;
-    }
-
-    .section-header {
-        padding: 10px 10px 10px 15px;
-        margin: 0 10px 0 0;
-        font-size: x-large;
-        text-align:left;
-        box-shadow: 0 3px 0 black;
-    }
-
-    .info {
-        margin: 0px 0px 0px 15px;
-    }
-
-    footer {
-        background-color: rgb(177, 177, 177);
-        width: 100%;
-        height: 200px;
-        margin-top: 50px;
-        bottom: 0;
-    }
-
-    .space {
-        padding-top: 80px;
-    }
-    .small-space {
-        padding-top: 10px;
-    }
-
-    .smallNav {
-        display: none;
-    }
-
-    .info-item {
-        outline: 4px solid rgb(22, 22, 22);
-        margin: auto;
-        margin-top: 40px;
-        width:80vw;
-        border-radius: 7px;
-        max-width: 1000px;
-        aspect-ratio: 5/2;
-        box-shadow: 0px 0px 10px rgb(138, 138, 138) inset, 
-            3px 5px 15px 3px rgb(29, 29, 29);
-        background-color: rgb(213, 213, 213);
-        
-    }
-
-    .shadow{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: none;
-        box-shadow: inset 0px 0px 20px rgb(14, 14, 14);
-        overflow: hidden;
-    }
-
-    .info-picture {
-        aspect-ratio: 30 / 7;
-        width: 100%;
-        position: relative;
-        border-radius: 6px;
-        overflow: hidden;
-    }
-
-    .info-picture img {
-        width:100%;
-        overflow: hidden;
-        transform: scale(1.03);
-        transition: transform 0.4s;
-    }
-
-    .info-picture img:hover {
-        transform: scale(1);
-    }
-
-    
-    .info-content {
-        margin: auto;
-        min-height: 50px;
-        font-size: 14px;
-        padding: 13px 40px;
-        color:rgb(56, 56, 56);
-    }
-
-    .info-header {
-        background-color: #9fb7ba;
-        padding: 10px;
-        margin: 0px;
-        box-shadow: 0 2px 12px rgb(122, 122, 122); 
-        font-size: 18px;
-        text-align: left;
-        padding: 1.5% 3%;
-        text-decoration: underline;
-        text-decoration-thickness: 1px;
-    }
-
-    
-
-    .info-link {
-        color:rgb(19, 18, 18);
-        filter: brightness(96%);
-        transition: filter 0.1s;
-    }
-
-    .info-link:hover{
-        color:rgb(43, 43, 43);
-        filter: brightness(100%);
-    }
-
-    ul.news-el{
-        list-style-type: none;
-        padding: 0;
-    }
-
-
-
-    @media screen and (max-width: 470px) {
-       
-
-        .normalNav 
-        {
-            display:inline-block;
-            margin: 25px 20px -10px 30px;
-        }
-        .normalNav a {
-
-            font-size: medium;
-        }
-        
-        .logo a{
-            width: 60px;
-            height: 50px;
-            margin-left:10px;
-            margin-right: -10px;
-            margin-top: 7px;
-        }
-        
-    }
-
-    @media screen and (max-width: 405px) {
-        .navigationArctic {
-            margin-left: 30px;
-        }
-
-       .normalNav a
-       {
-           font-size: medium;
-       }
-       
-       .logo a{
-            display: none;
-        }
-       
-   }
-
-   @media screen and (max-width: 348px) {
-        .normalNav a
-       {
-           font-size: small;
-       }
-       
-   }
-    </style>
+    <link rel="stylesheet" href="generalStyle.css">
 </head>
 <body>
     <header>
@@ -252,16 +25,16 @@
         
     </section>
 
-    <section class="info">
+    <section class="section-encaser">
         <h4 class="section-header">    
             News:
         </h4>
-        <ul class="news-el"> 
+        <ul class="news-list"> 
             <li>
                 <div class="info-item">
                     <a href="index.html" class="info-link">
                         <div class="info-picture"> 
-                            <div class="shadow"></div>
+                            <div class="info-picture-shadow"></div>
                             <img src="arcticImages/HeaderKapselScaled.png" alt=""> <!-- the Image should be scaled 1000x234 -->
                         </div>
                         <h4 class="info-header">We have a website now!</h4>
@@ -272,11 +45,15 @@
                     </div>   
                 </div>
             </li>
+            <li>
+                <h1 class="end-newslist">...</h1>
+            </li>
         </ul>
 
         <section class="space"></section>
     </section>
-    <section class="info">
+
+    <section class="section-encaser">
         <h4 class="section-header">    
             Rest:
         </h4>
