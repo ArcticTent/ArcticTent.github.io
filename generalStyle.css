@@ -46,10 +46,15 @@
 
     footer {
         background-color: rgb(177, 177, 177);
+        padding-left: 10px;
         width: 100%;
         bottom: 0;
         flex: 1;
         min-height: 200px;
+    }
+
+    .normal-text {
+        padding-left: 30px;
     }
 
 
