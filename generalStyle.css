@@ -206,6 +206,12 @@
         padding: 13px 40px;
         color:rgb(56, 56, 56);
     }
+
+    .info-date {
+        color:rgb(132, 132, 132);
+        font-size: 12px;
+        padding-bottom: 2px;
+    }
     
 
     .info-link {
