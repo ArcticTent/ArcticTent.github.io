@@ -44,6 +44,11 @@
         min-height: 100vh;
     }
 
+    .honeypot-field {
+        display: none;
+    }
+
+
     footer {
         background: rgb(34, 34, 34);
         width: 100%;
@@ -94,8 +99,9 @@
     }
 
     .footer-links:hover {
-        filter: brightness(0.3);
+        color: rgb(255, 255, 255);
     }
+
 
 
 
@@ -182,6 +188,23 @@
         line-height: 19px;
     }
 
+    .simple-list {
+
+    }
+
+    .simple-list-element {
+        padding: 5px;
+    }
+
+    .simple-link {
+        font-weight:bolder;
+        color: rgb(46, 46, 46);
+    }
+
+    .simple-link:hover{
+        text-decoration: underline;
+        color: rgb(0, 0, 0);
+    }
 
 
 
