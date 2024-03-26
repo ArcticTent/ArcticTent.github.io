@@ -75,26 +75,28 @@
     
 
     <div class="form-elements">
+
       <fieldset class="pure-group">
-        <label for="name">Name: </label>
-        <input id="name" name="name" placeholder="Whatever we should call you" />
+        <label for="title">Title: </label>
+        <textarea id="title" name="title" rows="2" placeholder="The title of your request/question"></textarea>
       </fieldset>
 
       <fieldset class="pure-group">
         <label for="message">Message: </label>
-        <textarea id="message" name="message" rows="10"
+        <textarea id="message" name="message" rows="10" required
         placeholder="Tell us what's on your mind..."></textarea>
       </fieldset>
 
       <fieldset class="pure-group">
         <label for="email"><em>Your</em> Email Address:</label>
-        <input id="email" name="email" type="email" value=""
-        required placeholder="your.name@email.com"/>
+        <input id="email" name="email" value="" type="email"
+        placeholder="your.name@email.com"/>
+        <!-- Add 'required' to make it a mandatory field, which only accepts an Email"-->
       </fieldset>
 
       <fieldset class="pure-group">
-        <label for="color">Favourite Color: </label>
-        <input id="color" name="color" placeholder="green" />
+        <label for="name">Name: </label>
+        <input id="name" name="name" placeholder="Whatever we should call you" />
       </fieldset>
 
       <fieldset class="pure-group honeypot-field">
