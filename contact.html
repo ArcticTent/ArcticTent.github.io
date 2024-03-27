@@ -101,37 +101,40 @@
                 <div class="sub-header feedback-header">Feedback Form:</div>
 
                 <div class="form-elements">
+                    <fieldset>
+                        <div class="form-ele">
+                            <label for="title">Title: <br></label>
+                            <textarea class="input-class" id="title" name="title" rows="2" placeholder="The title of your request/question"></textarea>
+                        </div>
+                        <div class="form-ele">
+                            <label for="message">Message: <br></label>
+                            <textarea class="input-class" id="message" name="message" rows="10" required
+                            placeholder="Tell us what's on your mind..."></textarea>
+                        </div>
+                        <div class="form-ele">
+                            <label for="email">Your Email Address: <br></label>
+                            <textarea class="input-class" id="email" name="email" value="" type="email"
+                            placeholder="your.name@email.com (optional)"></textarea>
+                            <div class="explanation">
+                                (if you want us to / need a respond from us)
+                            </div>
+                            <!-- Add 'required' to make it a mandatory field, which only accepts an Email"-->
+                        </div>
+                        <div class="form-ele">
+                            <label for="name">Name: <br></label>
+                            <textarea class="input-class" id="name" name="name" rows="1" 
+                            placeholder="Your name (optional)"></textarea>
+                        </div>
 
-                    <fieldset class="pure-group">
-                        <label for="title">Title: </label>
-                        <textarea id="title" name="title" rows="2" placeholder="The title of your request/question"></textarea>
+                        <fieldset class="pure-group honeypot-field">
+                            <label for="honeypot">Honeypot to help avoid spam</label>
+                            <input id="honeypot" type="text" name="honeypot" value="" />
+                        </fieldset>
+
+                        <button class="button-success button-xlarge send-form-button">
+                            <i class="fa fa-paper-plane"></i>&nbsp;Send
+                        </button>
                     </fieldset>
-
-                    <fieldset class="pure-group">
-                        <label for="message">Message: </label>
-                        <textarea id="message" name="message" rows="10" required
-                        placeholder="Tell us what's on your mind..."></textarea>
-                    </fieldset>
-
-                    <fieldset class="pure-group">
-                        <label for="email">Your Email Address: </label>
-                        <input id="email" name="email" value="" type="email"
-                        placeholder="your.name@email.com"/>
-                        <!-- Add 'required' to make it a mandatory field, which only accepts an Email"-->
-                    </fieldset>
-
-                    <fieldset class="pure-group">
-                        <label for="name">Name: </label>
-                        <input id="name" name="name" placeholder="Whatever we should call you" />
-                    </fieldset>
-
-                    <fieldset class="pure-group honeypot-field">
-                        <label for="honeypot">Honeypot to help avoid spam</label>
-                        <input id="honeypot" type="text" name="honeypot" value="" />
-                    </fieldset>
-
-                    <button class="button-success pure-button button-xlarge">
-                    <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
                 </div>
 
                 <div class="thankyou-message" style="display:none;">

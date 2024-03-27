@@ -48,6 +48,30 @@
         display: none;
     }
 
+    .explanation {
+        font-size: smaller;
+        padding-left: 15px;
+    }
+
+    .input-class {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 80%;
+        margin: 5px 10vw 0 2vw;
+        border-radius: 5px;
+        outline: 1px solid rgb(22, 22, 22);
+    }
+
+    .send-form-button {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-left: 3vw;
+        padding: 3px;
+        padding-right: 5px;;
+    }
+
+    fieldset {
+        border-radius: 5px;
+    }
+
 
     /*Footer ----------------------------------------------------------------------------------------------------*/
 
@@ -212,6 +236,10 @@
     .simple-link:hover{
         text-decoration: underline;
         color: rgb(54, 103, 226);
+    }
+
+    .form-ele {
+        padding: 10px;
     }
 
 
