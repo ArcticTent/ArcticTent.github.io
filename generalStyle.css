@@ -178,6 +178,12 @@
         text-align:left;
         box-shadow: 0 2px 0 black;
     }
+    
+    .sub-header {
+        padding: 20px 0 15px 1vw;
+        font-weight: bolder;
+        font-size: large;
+    }
 
     .light-grey-background {
         background-color: rgb(215, 227, 230);
