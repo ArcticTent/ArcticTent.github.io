@@ -218,6 +218,7 @@
         padding-left: 8vw;
         padding-right: 8vw;
         line-height: 19px;
+        text-align: justify;
     }
 
     .simple-list {
@@ -258,6 +259,19 @@
     .header-link:hover {
         text-decoration: underline;
         color: rgb(14, 14, 14);
+    }
+
+    .picture-left {
+        height: 20vw;
+        outline: 4px solid rgb(22, 22, 22);
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        float: left;
+        min-height: 175px;
+        max-height: 275px;
+        box-shadow: 2px 2px 12px rgb(0, 0, 0);
     }
 
 
@@ -501,6 +515,11 @@
     .forward-link {
         position:absolute;
         right:10px;
+    }
+
+    .news-pic-under {
+        width: 110%;
+        margin-left: -5%;
     }
 
     /* Game description page ------------------------------------------------------------------------------------------------------------------------*/
