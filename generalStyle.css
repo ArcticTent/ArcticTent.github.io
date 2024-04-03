@@ -194,6 +194,10 @@
         margin: 10px 20vw 10px 20vw;
     }
 
+    .subsection {
+        margin: 0 8% 0 8%;
+    }
+
     .section-header {
         padding: 10px 0px 10px 0px;
         padding-left: 6vw;
@@ -271,6 +275,15 @@
         float: left;
         min-height: 175px;
         max-height: 275px;
+        box-shadow: 2px 2px 12px rgb(0, 0, 0);
+    }
+
+    .picture {
+        width: 100%;
+        margin: 20px 0;
+        max-width: 500px;
+        outline: 4px solid rgb(22, 22, 22);
+        border-radius: 10px;
         box-shadow: 2px 2px 12px rgb(0, 0, 0);
     }
 
