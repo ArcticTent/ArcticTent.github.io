@@ -529,11 +529,7 @@
     }
 
     .main-game-pic{
-        position:absolute;
-        
         width: 100%;
-        z-index: -1px;
-        transform: translateZ(-50px) scale(1);
     }
 
     /*Scaling of Navigation bar ---------------------------------------------------------------------------------------------------------------------*/
